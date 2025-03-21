@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>Image</p>
+    <picture>
+      <source media="(min-width: 1280px)" srcset="https://i.ibb.co/spS1yJnk/1280.jpg" />
+      <source media="(min-width: 768px)" srcset="https://i.ibb.co/b5wpYkVt/768.jpg" />
+      <source media="(min-width: 480px)" srcset="https://i.ibb.co/VY9Zvwkj/480.jpg" />
+      <img src="./files/profile pic.jpg" alt="pic" style="width: auto" />
+    </picture>
+
+    <p>Audio</p>
+    <audio controls>
+      <source src="./files/Vocaroo 18 Mar 2025 07_18_26 GMT+0100 1f3Z8G5wzCYX.mp3" type="audio/ogg" />
+    </audio>
+
+    <p>Video</p>
+    <video width="400" height="350" controls preload>
+      <source src="./files/altschool.mp4" type="video/mp4" />
+    </video>
+
+    <p>iFrame Video</p>
+    <div style="position: relative; padding-bottom: 56.25%; height: 0">
+      <iframe
+        src="https://www.loom.com/embed/95d49388996244268da64426cf1ff620?sid=112b0e38-79ce-4e0d-a95f-099e85ba837b"
+        frameborder="0"
+        webkitallowfullscreen
+        mozallowfullscreen
+        allowfullscreen
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"></iframe>
+    </div>
+  </body>
+</html>
